@@ -1,4 +1,4 @@
-import Error from 'page/error';
+import Error from 'layout/error';
 export default function Custom500() {
     return <Error 
         http={500} title="Internal Server Error" 
