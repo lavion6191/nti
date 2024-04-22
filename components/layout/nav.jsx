@@ -82,11 +82,6 @@ export default function Navigation() {
                     <li className={`${styles.iaAlignCenter} ${styles.iaH100} ${styles.iaFlex} ${styles.iaJustifyContentCenter}`}>
                         <Logo />
                     </li>
-                    {/*
-                    <li className={`${styles.iaFlex} ${styles.iaAlignCenter} ${styles.iaH100} ${styles.iaCustomNavHover} ${styles.iaCursorPointer} ${styles.iaPrimaryTextHover}`} onClick={buttonToStatus}>
-                        <span className={`${styles.iaTdeco} ${styles.iaFontweight600} ${styles.iaFontsize16} ${styles.iaLs2}`}>Status</span>
-                    </li>
-                    */}
                 </ul>
                 <span className={`${styles.iaListStyleNone} ${styles.iaFlex} ${styles.iaM0} ${styles.iaFlexG1} ${styles.iaAlignCenter}`}>
                     <SearchBar />
