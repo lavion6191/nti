@@ -1,7 +1,7 @@
 import styles from 'css/invalsia.module.css';
 import SEO from 'layout/SEO';
-import { Navigation } from 'layout/nav';
-import { Footer } from 'layout/footer';
+import Navigation from 'layout/nav';
+import Footer from 'layout/footer';
 
 export default function HomePage() {
     return (

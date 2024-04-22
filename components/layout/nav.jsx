@@ -22,7 +22,7 @@ import deleteCookies from 'util/deleteCookies';
 import { avatarGET } from 'api/user/avatar';
 import { usernameGET } from 'api/user/username'
 
-export function Navigation() {
+export default function Navigation() {
     const router = useRouter();
     const [userAvatar, setUserAvatar] = useState('');
     const [isLoggedIn, setIsLoggedIn] = useState(false);

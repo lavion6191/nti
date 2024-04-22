@@ -1,15 +1,14 @@
-// Error.jsx
+// error.jsx
 import React from 'react';
 import styles from "css/invalsia.module.css";
-import SEO1 from 'layout/SEO';
-import { Nav1 } from 'layout/nav';
-import { Footer1 } from 'layout/footer';
+import SEO from 'layout/SEO';
+import Footer from 'layout/footer';
 
 const Error = ({ http, title, description }) => {
     return (
         <>
             {/* Head */}
-            <SEO1
+            <SEO
                 title={`${http} - ${title}`}
                 description=""
                 type="something"
@@ -40,7 +39,7 @@ const Error = ({ http, title, description }) => {
                             </div>
                         </div>
                     </main>
-                    <Footer1 />
+                    <Footer />
                 </div>
             </div>
         </>

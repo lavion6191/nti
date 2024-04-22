@@ -1,7 +1,7 @@
 import styles from 'css/invalsia.module.css'
 import { useRouter } from 'next/router'
 
-export function Footer() {
+export default function Footer() {
     const router = useRouter()
     const buttonToHome = () => { router.push('/') }
 
