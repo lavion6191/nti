@@ -31,8 +31,6 @@ export default function Logo() {
                     src={logoImg}
                     alt="logo"
                     priority={true}
-                    width={48}
-                    height={48}
                     layout="fixed"
                     objectFit="contain"
                     className={`${styles.iaBorderRadius10P}`}
